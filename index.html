@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name - Professional Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Roboto', sans-serif; background: #fff; color: #333; line-height: 1.6; }
+    header { background: #0a3d62; color: white; padding: 2rem; text-align: center; }
+    header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+    header p { font-size: 1.2rem; }
+    section { padding: 3rem 15%; }
+    h2 { color: #0a3d62; margin-bottom: 1rem; }
+    .skills { display: flex; flex-wrap: wrap; gap: 1rem; }
+    .skill { background: #f4f4f4; padding: 1rem; border-radius: 5px; flex: 1 1 200px; }
+    footer { background: #0a3d62; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
+    form input, form textarea { width: 100%; padding: 0.7rem; margin-bottom: 1rem; border: 1px solid #ccc; border-radius: 5px; }
+    form button { background: #0a3d62; color: white; padding: 0.7rem 1.5rem; border: none; border-radius: 5px; cursor: pointer; }
+    form button:hover { background: #074059; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Your Name</h1>
+  <p>Professional Title | Specialization</p>
+</header>
+
+<section>
+  <h2>About Me</h2>
+  <p>Write a short, formal introduction about yourself here. Mention your professional background, achievements, and what you do.</p>
+</section>
+
+<section>
+  <h2>Skills</h2>
+  <div class="skills">
+    <div class="skill">Skill One</div>
+    <div class="skill">Skill Two</div>
+    <div class="skill">Skill Three</div>
+    <div class="skill">Skill Four</div>
+  </div>
+</section>
+
+<section>
+  <h2>Contact Me</h2>
+  <form action="https://formspree.io/f/mwkgjqkr" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 Your Name. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
